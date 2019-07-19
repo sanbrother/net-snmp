@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="mibII">
+      <UniqueIdentifier>{c6a224bc-300d-4d4a-bf9f-faed27158207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="disman">
+      <UniqueIdentifier>{405e592d-4f6a-490f-9b9e-616ba996cbda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples">
+      <UniqueIdentifier>{d0899e8f-51da-4c56-8c21-a99479847106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ucd-snmp">
+      <UniqueIdentifier>{22c0abd5-8de1-4f55-a63f-cab03b171991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="snmpv3">
+      <UniqueIdentifier>{7b8be7c4-ce69-4a23-bc62-8a99e0c8bed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="notification">
+      <UniqueIdentifier>{528b56cf-067a-4a0b-a006-78d0a9284a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="target">
+      <UniqueIdentifier>{0bef5463-d674-49de-a864-f5d7014c6ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="agentx">
+      <UniqueIdentifier>{f8521d93-132b-4631-98ed-6f333a86ff06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="agent">
+      <UniqueIdentifier>{c214f2c2-fb17-400b-b15c-6a56e7a754f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{05d7519c-b2fa-4ad1-9e3a-9993a71adb26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="winExtDLL">
+      <UniqueIdentifier>{c13dfe04-c314-4493-ab91-c851b2ec1534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="smux">
+      <UniqueIdentifier>{9528be6c-1109-480a-bcc8-39b69ee1882c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mibII\data_access">
+      <UniqueIdentifier>{04a881da-9281-4eaa-9885-8a27cab26823}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\at.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\icmp.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\interfaces.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\ip.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\ipAddr.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\route_write.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\setSerialNo.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\snmp_mib.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\sysORTable.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\system_mib.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\tcp.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\tcpTable.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\udp.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\udpTable.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\updates.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\vacm_conf.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\vacm_context.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\vacm_vars.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\var_route.c">
+      <Filter>mibII</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteEvent.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteEventConf.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteEventNotificationTable.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteEventSetTable.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteEventTable.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteObjects.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteObjectsConf.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteObjectsTable.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteScalars.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteTriggerBooleanTable.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteTrigger.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteTriggerConf.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteTriggerDeltaTable.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteTriggerExistenceTable.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteTriggerTable.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\disman\event\mteTriggerThresholdTable.c">
+      <Filter>disman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\examples\example.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\examples\ucdDemoPublic.c">
+      <Filter>examples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\ucd-snmp\dlmod.c">
+      <Filter>ucd-snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\ucd-snmp\errormib.c">
+      <Filter>ucd-snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\ucd-snmp\extensible.c">
+      <Filter>ucd-snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\ucd-snmp\file.c">
+      <Filter>ucd-snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\ucd-snmp\loadave.c">
+      <Filter>ucd-snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\ucd-snmp\pass.c">
+      <Filter>ucd-snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\ucd-snmp\pass_common.c">
+      <Filter>ucd-snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\ucd-snmp\pass_persist.c">
+      <Filter>ucd-snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\ucd-snmp\proc.c">
+      <Filter>ucd-snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\ucd-snmp\proxy.c">
+      <Filter>ucd-snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\ucd-snmp\versioninfo.c">
+      <Filter>ucd-snmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\snmpv3\snmpEngine.c">
+      <Filter>snmpv3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\snmpv3\snmpMPDStats.c">
+      <Filter>snmpv3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\snmpv3\usmConf.c">
+      <Filter>snmpv3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\snmpv3\usmStats.c">
+      <Filter>snmpv3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\snmpv3\usmUser.c">
+      <Filter>snmpv3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\notification-log-mib\notification_log.c">
+      <Filter>notification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\notification\snmpNotifyFilterProfileTable.c">
+      <Filter>notification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\snmp-notification-mib\snmpNotifyFilterTable\snmpNotifyFilterTable.c">
+      <Filter>notification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\snmp-notification-mib\snmpNotifyFilterTable\snmpNotifyFilterTable_data_access.c">
+      <Filter>notification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\snmp-notification-mib\snmpNotifyFilterTable\snmpNotifyFilterTable_interface.c">
+      <Filter>notification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\notification\snmpNotifyTable.c">
+      <Filter>notification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\target\snmpTargetAddrEntry.c">
+      <Filter>target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\target\snmpTargetParamsEntry.c">
+      <Filter>target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\target\target.c">
+      <Filter>target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\target\target_counters.c">
+      <Filter>target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\agentx\agentx_config.c">
+      <Filter>agentx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\agentx\client.c">
+      <Filter>agentx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\agentx\master.c">
+      <Filter>agentx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\agentx\master_admin.c">
+      <Filter>agentx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\agentx\protocol.c">
+      <Filter>agentx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\agentx\subagent.c">
+      <Filter>agentx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\agent\extend.c">
+      <Filter>agent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\agent\nsCache.c">
+      <Filter>agent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\agent\nsDebug.c">
+      <Filter>agent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\agent\nsLogging.c">
+      <Filter>agent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\agent\nsModuleTable.c">
+      <Filter>agent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\agent\nsTransactionTable.c">
+      <Filter>agent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\utilities\execute.c">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\util_funcs\Exit.c">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\header_complex.c">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\util_funcs\header_generic.c">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\util_funcs\header_simple_table.c">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\utilities\iquery.c">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mib_modules.c">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\utilities\override.c">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\util_funcs\restart.c">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\util_funcs.c">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\winExtDLL.c">
+      <Filter>winExtDLL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\smux\smux.c">
+      <Filter>smux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\mibII\data_access\at_iphlpapi.c">
+      <Filter>mibII\data_access</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\notification\snmpNotifyFilterProfileTable_data.c">
+      <Filter>notification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\notification\snmpNotifyTable_data.c">
+      <Filter>notification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\target\snmpTargetAddrEntry_data.c">
+      <Filter>target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\target\snmpTargetParamsEntry_data.c">
+      <Filter>target</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\agent\mibgroup\snmp-notification-mib\snmpNotifyFilterTable\snmpNotifyFilterTable_data_storage.c">
+      <Filter>notification</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\agent\mibgroup\winExtDLL.h">
+      <Filter>winExtDLL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

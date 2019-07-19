@@ -26,7 +26,7 @@
  * See the PACKAGE_VERSION variable in Unix /configure script
 */
 #ifndef PACKAGE_VERSION
-#define PACKAGE_VERSION "unknown"
+#define PACKAGE_VERSION "5.8"
 #endif
 
 /* Define HAVE_WIN32_PLATFORM_SDK if you have:
@@ -38,7 +38,7 @@
 
 /* Define NETSNMP_ENABLE_IPV6 to enable IPv6.  IPv6 is only available on
  * Windows XP and higher.  */
-/* #undef NETSNMP_ENABLE_IPV6 */
+#define NETSNMP_ENABLE_IPV6 1
 
 #define INSTALL_BASE "c:/usr"
 
@@ -76,7 +76,7 @@
 #define NETSNMP_ENABLE_SCAPI_AUTHPRIV 1
 
 /* define if you are using the MD5 code ...*/
-/* #undef NETSNMP_USE_INTERNAL_MD5 */
+#define NETSNMP_USE_INTERNAL_MD5 1
 
 /* define if you are using the codeS11 library ...*/
 /* #undef NETSNMP_USE_PKCS11 */
@@ -1699,7 +1699,7 @@ enum {
 #endif
 
 /* Define NETSNMP_USE_DLL when building or using netsnmp.DLL */
-/* #undef NETSNMP_USE_DLL */
+#define NETSNMP_USE_DLL 1
 
 #if defined(NETSNMP_DLL) && !defined(NETSNMP_USE_DLL)
 #error NETSNMP_USE_DLL must be defined when building libsnmp as a DLL.
